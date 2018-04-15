@@ -1,0 +1,35 @@
+{
+  "name": "portfolio-blog",
+  "version": "0.0.1",
+  "description": "A Vue.js and Node.js Portfolio & Blog application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Awadje",
+  "license": "MIT",
+  "bugs": {
+
+  },
+  "homepage": "",
+  "_moduleAliases": {
+    "@root": ".",
+    "@PortfolioBlog": "./services/PortfolioBlogAPI",
+    "@PortfolioBlogModels": "./services/PortfolioBlogAPI/app/models",
+    "@PortfolioBlogAPI": "./services/PortfolioBlogAPI/config/app.js",
+    "@config": "./services/PortfolioBlogAPI/config/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "consign": "^0.1.6",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.1",
+    "module-alias": "^2.0.6",
+    "mongoose": "^5.0.6",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1"
+  }
+}
