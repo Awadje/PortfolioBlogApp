@@ -1,8 +1,8 @@
-# budget-manager
+# portfolio-blog
 
-This application is being developed as part of a tutorial series.
 
-You can access it [here](https://medium.com/netscape/building-a-budget-manager-with-vue-js-and-node-js-part-i-f3d7311822a8).
+
+
 
 ## Build Setup
 
